@@ -1,0 +1,28 @@
+{
+  "name": "drt-shared-config-mcp",
+  "version": "1.0.0",
+  "description": "Shared MCP configuration entrypoint",
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_PAT}"
+      }
+    },
+    "prisma": {
+      "type": "http",
+      "url": "https://prisma.example.invalid/mcp",
+      "headers": {
+        "Authorization": "Bearer ${PRISMA_TOKEN}"
+      }
+    },
+    "whimsical": {
+      "type": "http",
+      "url": "https://whimsical.example.invalid/mcp",
+      "headers": {
+        "Authorization": "Bearer ${WHIMSICAL_TOKEN}"
+      }
+    }
+  }
+}
