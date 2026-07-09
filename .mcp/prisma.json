@@ -1,7 +1,7 @@
 {
   "name": "prisma",
   "type": "http",
-  "url": "https://prisma.example.invalid/mcp",
+  "url": "https://mcp.prisma.io/mcp",
   "headers": {
     "Authorization": "Bearer ${PRISMA_TOKEN}"
   }

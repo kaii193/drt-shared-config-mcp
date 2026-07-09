@@ -49,7 +49,8 @@ This guide provides detailed instructions on how to install and configure the **
 
 ### 2. Claude Desktop:
 -- GitHub MCP Server - Local Dev
-* Configuration File Location (`claude_desktop_config.json`):
+* Configuration File Location (`claude_desktop_config.json`)
+** Claude → Settings → Developer → Edit Config
 ** Located in specific directories depending on the OS (macOS, Windows, or Linux).
 
 * *Without Docker*: `Note: Add Folder Bibrary to your PATH `
